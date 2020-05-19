@@ -1,5 +1,5 @@
 # Vuejs Todo App
-![](gif.gif)
+![](demo.gif)
 ## Project setup
 ```
 npm install
