@@ -18,11 +18,11 @@
 	</a>
   </kbd>
 </p>
-## Add/check Task
+## Add Task
 <p align="center"> 
   <kbd>
   	<a href="https://admiring-jennings-4c377a.netlify.app/" target="_blank">
-		<img src=".png"></img>
+		<img src="addtask.png"></img>
 	</a>
   </kbd>
 </p>
