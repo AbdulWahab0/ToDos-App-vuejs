@@ -18,6 +18,8 @@
 	</a>
   </kbd>
 </p>
+
+
 ## Add Task
 <p align="center"> 
   <kbd>
@@ -26,6 +28,8 @@
 	</a>
   </kbd>
 </p>
+
+
 ## Delete/uncheck Task
 <p align="center"> 
   <kbd>
@@ -34,6 +38,8 @@
 	</a>
   </kbd>
 </p>
+
+
 ## Technologies used 🛠️
 
 - [Vue Js](https://vuejs.org/)
