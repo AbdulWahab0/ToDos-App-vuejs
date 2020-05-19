@@ -1,5 +1,18 @@
 # Vuejs Todo App  ⚡️
 ![](demo.gif)
+## A clean, beautiful and responsive To do App for Vue.js Developers!
+
+## Sections 
+✔️ Show Task List\
+✔️ Add the Task\
+✔️ Delete the Task \
+✔️ Check and uncheck Task\
+
+## Technologies used 🛠️
+
+- [Vue Js](https://vuejs.org/)
+- [SAAS]
+
 ## Project setup
 ```
 npm install
