@@ -1,4 +1,4 @@
-# Vuejs Todo App
+# Vuejs Todo App  ⚡️
 ![](demo.gif)
 ## Project setup
 ```
