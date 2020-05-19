@@ -10,6 +10,30 @@
 ✔️ Delete the Task \
 ✔️ Check and uncheck Task\
 
+## Show Task List
+<p align="center"> 
+  <kbd>
+  	<a href="https://admiring-jennings-4c377a.netlify.app/" target="_blank">
+		<img src="task_list.png"></img>
+	</a>
+  </kbd>
+</p>
+## Add/check Task
+<p align="center"> 
+  <kbd>
+  	<a href="https://admiring-jennings-4c377a.netlify.app/" target="_blank">
+		<img src=".png"></img>
+	</a>
+  </kbd>
+</p>
+## Delete/uncheck Task
+<p align="center"> 
+  <kbd>
+  	<a href="https://admiring-jennings-4c377a.netlify.app/" target="_blank">
+		<img src="remove.png"></img>
+	</a>
+  </kbd>
+</p>
 ## Technologies used 🛠️
 
 - [Vue Js](https://vuejs.org/)
