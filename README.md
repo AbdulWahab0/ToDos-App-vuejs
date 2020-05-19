@@ -1,6 +1,7 @@
 # Vuejs Todo App  ⚡️
-![](demo.gif)
 ## A clean, beautiful and responsive To do App for Vue.js Developers!
+![](demo.gif)
+
 
 ## Sections 
 ✔️ Show Task List\
@@ -11,7 +12,7 @@
 ## Technologies used 🛠️
 
 - [Vue Js](https://vuejs.org/)
-- [SAAS]
+- [SAAS] (https://medium.com/front-end-weekly/tagged/saas)
 
 ## Project setup
 ```
