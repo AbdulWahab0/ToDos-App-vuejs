@@ -12,7 +12,7 @@
 ## Technologies used 🛠️
 
 - [Vue Js](https://vuejs.org/)
-- [SAAS] (https://medium.com/front-end-weekly/tagged/saas)
+
 
 ## Project setup
 ```
@@ -33,3 +33,9 @@ npm run build
 ```
 npm run test:unit
 ```
+## Contributors ✨
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/AbdulWahab0"><br /><sub><b>Abdul Wahab</b></sub></a><br /><a href="https://github.com/AbdulWahab0" title="Code">💻</a> <a href="https://github.com/AbdulWahab0" title="Documentation">📖</a> <a href="https://github.com/AbdulWahab0" title="Design">🎨</a> <a href="https://github.com/AbdulWahab0" title="Maintenance">🚧</a></td>
+  </tr>
+</table>
