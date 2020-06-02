@@ -8,14 +8,7 @@
         required
         class="form-control"
       />
-
-      <select class="form-control" v-model="priority" required>
-        <option value="">--Priority--</option>
-        <option>Very High</option>
-        <option>High</option>
-        <option>Moderate</option>
-        <option>Low</option>
-      </select>
+      <br />
 
       <input
         type="text"
@@ -24,7 +17,17 @@
         required
         class="form-control mt-4"
       />
-      <button type="submit">Add</button>
+      <br />
+      <select class="form-control mt-4" v-model="priority" required>
+        <option value="">--Priority--</option>
+        <option value="A">Very High</option>
+        <option value="B">High</option>
+        <option value="C">Moderate</option>
+        <option value="D">Low</option>
+      </select>
+      <br />
+
+      <button type="submit" class="btn mt-4">Add</button>
     </div>
   </form>
 </template>

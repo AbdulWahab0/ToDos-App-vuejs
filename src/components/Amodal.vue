@@ -100,9 +100,20 @@ export default {
 }
 
 .amodal__body {
-  padding: 22px;
+  padding: 44px 33px;
   max-height: 88vh;
   overflow-y: auto;
+}
+
+.zoom-enter-active,
+.zoom-leave-active {
+  transition: all 0.25s;
+  /* transform: scale(1); */
+}
+.zoom-enter,
+.zoom-leave-to {
+  transform: scale(0.5);
+  opacity: 0;
 }
 
 .modal-enter-active,

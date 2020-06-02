@@ -1,40 +1,44 @@
 <template>
-  <div class="ani-slideInDown row justify-content-center">
-    <div class="col-lg-12">
-      <h2 class="mb-4">ToDo</h2>
-      <button class="add-new" @click="addModal = true">Add</button>
-
-      <ToDoInput @eventAddNewTask="onAddNewTask" />
-
-      <table class="table table-bordered my-table mt-3">
-        <thead>
-          <tr>
-            <th scope="col" class="column-title">Title</th>
-            <th scope="col">Priority</th>
-            <th scope="col">Owner</th>
-          </tr>
-        </thead>
-        <tbody>
-          <!-- <tr>
+  <div>
+    <div class="row justify-content-between">
+      <div class="col-4">
+        <h2 class="mb-4">ToDo</h2>
+      </div>
+      <div class="col-auto">
+        <button class="add-new" @click="addModal = true">Add new</button>
+      </div>
+    </div>
+    <div class="ani-slideInDown row justify-content-center">
+      <div class="col-lg-12">
+        <table class="table table-bordered my-table mt-3">
+          <thead>
+            <tr>
+              <th scope="col" class="column-title">Title</th>
+              <th scope="col" class="column-priority">Priority</th>
+              <th scope="col" class="column-owner">Owner</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- <tr>
             <th>title</th>
             <td>ppp</td>
             <td>www</td>
           </tr> -->
-          <ListItem
-            v-for="item in itemList"
-            :key="item.id"
-            :text="item.text"
-            :id="item.id"
-            :isDone="item.isDone"
-            :priority="item.priority"
-            :owner="item.owner"
-            @eventTaskStatusChange="onTaskStatusChange"
-            @eventTaskDelete="onTaskDelete"
-          />
-        </tbody>
-      </table>
+            <ListItem
+              v-for="item in itemList"
+              :key="item.id"
+              :text="item.text"
+              :id="item.id"
+              :isDone="item.isDone"
+              :priority="item.priority"
+              :owner="item.owner"
+              @eventTaskStatusChange="onTaskStatusChange"
+              @eventTaskDelete="onTaskDelete"
+            />
+          </tbody>
+        </table>
 
-      <!-- <ul class="list mt-3">
+        <!-- <ul class="list mt-3">
         <ListItem
           v-for="item in itemList"
           :key="item.id"
@@ -45,9 +49,12 @@
           @eventTaskDelete="onTaskDelete"
         />
       </ul> -->
-    </div>
+      </div>
 
-    <amodal title="Add New Item" v-model="addModal"></amodal>
+      <amodal title="Add New Item" v-model="addModal" width="500px">
+        <ToDoInput @eventAddNewTask="onAddNewTask" />
+      </amodal>
+    </div>
   </div>
 </template>
 
@@ -84,6 +91,7 @@ export default {
       };
 
       this.itemList.push(task);
+      this.addModal = false;
     },
 
     /**
@@ -168,7 +176,25 @@ export default {
   color: #315064;
 }
 
-.column-title {
-  width: 70%;
+.column-priority {
+  width: 144px;
+}
+
+.column-owner {
+  width: 71px;
+}
+
+button.add-new {
+  background-color: #c8343d;
+  color: #fff;
+  padding: 13px 14px;
+  border-radius: 4px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button.add-new:hover {
+  background-color: #b3222c;
 }
 </style>
