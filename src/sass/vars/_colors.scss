@@ -4,14 +4,11 @@ $color-2: #3c58ad;
 $color-dark: #000;
 $color-light: #fff;
 
-
-
-$color-bg: #252829;
+$color-bg: #f1f1f1; //#252829;
 $color-bg-hover: lighten($color-bg, 7);
 $color-bg-header: #2d2f2f;
 $color-bg-footer: darken(mix($color-1, $color-2), 15);
 
-$color-text-1: #efefef;
-
+$color-text-1: #08334b; // #efefef;
 
 $color-error: #ff3a68;
